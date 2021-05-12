@@ -1,0 +1,28 @@
+.body{
+    display: flex;
+}
+@media screen and (max-width: 800px){
+    ul{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        margin: .5em;
+        padding: .5em;
+        background-color: #c1c1c1;
+    }
+    li{
+        padding: 0 4em;
+    }
+    a{
+        text-decoration: none;
+    }
+    .welcome{
+        text-align: center;
+    }
+    .picture>img{
+        float: left;
+        width: 100px;
+        margin: .5em;
+        margin-right: 2em;
+    }
+}
