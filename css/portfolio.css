@@ -2,7 +2,7 @@
     display: flex;
 }
 @media screen and (max-width: 800px){
-    ul{
+    #topNav>ul{
         display: flex;
         justify-content: space-around;
         list-style: none;
@@ -11,18 +11,20 @@
         background-color: #c1c1c1;
     }
     li{
-        padding: 0 4em;
+        padding: .5em;
     }
     a{
         text-decoration: none;
     }
     .welcome{
+        background-color: #c1c1c1;
         text-align: center;
-    }
-    .picture>img{
-        float: left;
-        width: 100px;
         margin: .5em;
-        margin-right: 2em;
+        padding: .5em;
+        border-radius: 10%
     }
+    .welcome>img{
+        width:150px;
+    }
+
 }
