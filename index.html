@@ -6,43 +6,93 @@
               content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <title>Portfolio</title>
         <link rel="stylesheet" href="css/portfolio.css" type="text/css">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+              rel="stylesheet"
+              integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+              crossorigin="anonymous">
     </head>
     <body>
         <nav id="topNav" class="navigation">
             <ul>
-                <li><a href="#top">Homepage</a></li>
+                <li><a href="#">Homepage</a></li>
                 <li><a href="#">About Me</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#">Hire Me</a></li>
             </ul>
         </nav>
-        <div id="top" class="welcome">
-            <img src="assets/img/profilePic.jpeg" alt="Profile Picture">
+        <div class="welcome">
+            <img id="my-picture" src="assets/img/profilePic.jpeg"
+                 alt="Profile Picture">
             <h1>Robert Sledge</h1>
             <p>I'm currently a Full Stack Web Development Student at Codeup.</p>
         </div>
-        <nav id="section-nav" class="navigation">
-            <ul>
-                <li><a href="#javaScript">JavaScript</a></li>
-                <li><a href="#html">HTML</a></li>
-                <li><a href="#css">CSS</a></li>
-            </ul>
-        </nav>
-        <section id="javaScript">
-            <div class="cards">
-                <h3>Project Coming Soon</h3>
-                <img>
-                <p>More info to follow when project gets completed</p>
+        <!--      PROJECTS SECTION       -->
+        <section id="projects">
+            <div class="d-flex row justify-content-around">
+                <div class="column col-4" id="personal-proj">
+                    <h1>Personal Projects</h1>
+                    <div class="card">
+                        <img src="assets/img/3386016.jpg" alt="">
+                        <h1 class="card-title">Lorem Ipsum</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                            do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Eu scelerisque felis imperdiet proin fermentum leo
+                            vel orci porta. Nunc id cursus metus aliquam. Libero enim
+                            sed faucibus turpis in. Volutpat odio facilisis mauris sit
+                            amet massa vitae tortor condimentum.
+                        </p>
+                    </div>
+                </div>
+                <div class="column col-4" id="class-proj">
+                    <h1>Bootcamp Class Projects</h1>
+                    <div class="card">
+                        <img src="assets/img/Home%20Screenshot.svg"
+                             alt="Screenshot of seru.shop homepage">
+                        <h1 class="card-title">Seru</h1>
+                        <p>Seru is a web application used for the tracking of games on
+                            sale for $30 or less and free to play from over 30
+                            different online gaming distributors. Find the lowest price
+                            for games you want. To achieve this result my team used
+                            Free-To-Play and CheapShark api’s, Bootstrap, Java,
+                            Javascript, Spring, HTML, CSS, JQuery, and MySQL
+                        </p>
+                    </div>
+                </div>
+                <div class="column col-4" id="work-related">
+                    <h1>Work Related Projects</h1>
+                    <div class="card mb-4">
+                        <img src="assets/img/3386016.jpg" alt="">
+                        <h1 class="card-title">Lorem Ipsum</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                            do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Eu scelerisque felis imperdiet proin fermentum leo
+                            vel orci porta. Nunc id cursus metus aliquam. Libero enim
+                            sed faucibus turpis in. Volutpat odio facilisis mauris sit
+                            amet massa vitae tortor condimentum.
+                        </p>
+                    </div>
+                    <div class="card mb-4">
+                        <img src="assets/img/3386016.jpg" alt="">
+                        <h1 class="card-title">Lorem Ipsum</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                            do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Eu scelerisque felis imperdiet proin fermentum leo
+                            vel orci porta. Nunc id cursus metus aliquam. Libero enim
+                            sed faucibus turpis in. Volutpat odio facilisis mauris sit
+                            amet massa vitae tortor condimentum.
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
-        <section id="html">
-            <div class="cards"></div>
-        </section>
-        <section id="css">
-            <div class="cards"></div>
-        </section>
-        <section id="c-based">
-            <div class="cards"></div>
-        </section>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+                integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+                crossorigin="anonymous"></script>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+                crossorigin="anonymous"></script>
     </body>
 </html>

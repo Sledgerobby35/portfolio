@@ -10,6 +10,11 @@
         padding: .5em;
         background-color: #c1c1c1;
     }
+    #topNav{
+        position: sticky;
+        top: 3px;
+        z-index: 1000;
+    }
     li{
         padding: .5em;
     }
@@ -21,10 +26,14 @@
         text-align: center;
         margin: .5em;
         padding: .5em;
-        border-radius: 10%
+        border-radius: 50%
     }
-    .welcome>img{
+    #my-picture{
         width:150px;
+    }
+    .card>img{
+        height: 188px;
+        width: 236px;
     }
 
 }
